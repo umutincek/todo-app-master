@@ -1,0 +1,40 @@
+$myColor: red;
+$color1: red;
+$color2: black;
+
+
+.todo {
+  background: black;
+  color: #fff;
+  padding: 10px;
+}
+.todo-completed {
+  text-decoration: line-through;
+  color: $myColor;
+}
+
+.todo:hover {
+  background: brown;
+}
+
+.form-group {
+  margin: 15px 10px;
+  input, select {
+    font-size: 18px;
+    padding: 15px;
+    width: 400px;
+  }
+  input[type='radio'] {
+    width: 20px;
+  }
+
+  button {
+    margin: 15px 10px;
+    width: 400px;
+    padding: 15px;
+    background: rebeccapurple;
+    color: #fff;
+    box-shadow: none;
+    font-size: 18px;
+  }
+}
